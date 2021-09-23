@@ -1,5 +1,12 @@
 package dev.wakandaacademy.wakanda.poc.courses.domain;
 
-public class Cursos {
+import javax.persistence.Entity;
 
+import lombok.Builder;
+
+@Entity
+@Builder
+public class Cursos {
+	
+	// TODO - EM ANDAMENTO
 }
