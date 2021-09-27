@@ -14,7 +14,9 @@ public class CursosDTO {
 	private String url;
 	
 	public CursosDTO(Cursos cursos) {
+		this.id = cursos.getId();
 		this.titulo = cursos.getTitulo();
+		this.descricao = cursos.getDescricao();
 		this.url = cursos.getUrl();
 	}
 }
