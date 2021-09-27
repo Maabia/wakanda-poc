@@ -2,6 +2,7 @@ package dev.wakandaacademy.wakanda.poc.courses.application.api;
 
 import java.util.UUID;
 
+import dev.wakandaacademy.wakanda.poc.courses.domain.Cursos;
 import lombok.Getter;
 
 @Getter
