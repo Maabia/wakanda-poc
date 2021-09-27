@@ -1,6 +1,8 @@
 package dev.wakandaacademy.wakanda.poc.courses.domain;
 
 
+import java.util.UUID;
+
 import javax.persistence.Entity;
 
 import lombok.Builder;
@@ -11,9 +13,8 @@ import lombok.Getter;
 @Getter
 public class Cursos {
 	
-	//VER COM VÍNI SE VAI PRECISAR DE ID
 	
+	private UUID id;
 	private String titulo;
-	
 	private String url;
 }
