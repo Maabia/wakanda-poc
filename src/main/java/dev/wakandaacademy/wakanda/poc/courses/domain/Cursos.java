@@ -21,5 +21,6 @@ public class Cursos {
 	private UUID id;
 	
 	private String titulo;
+	private String descricao;
 	private String url;
 }

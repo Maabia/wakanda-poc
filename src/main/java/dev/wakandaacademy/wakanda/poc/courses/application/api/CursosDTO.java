@@ -10,6 +10,7 @@ public class CursosDTO {
 	
 	private UUID id;
 	private String titulo;
+	private String descricao;
 	private String url;
 	
 	public CursosDTO(Cursos cursos) {
