@@ -6,14 +6,14 @@ import dev.wakandaacademy.wakanda.poc.courses.domain.Cursos;
 import lombok.Getter;
 
 @Getter
-public class CursosDTO {
+public class VideoDTO {
 	
 	private UUID id;
 	private String titulo;
 	private String descricao;
 	private String url;
 	
-	public CursosDTO(Cursos cursos) {
+	public VideoDTO(Cursos cursos) {
 		this.id = cursos.getId();
 		this.titulo = cursos.getTitulo();
 		this.descricao = cursos.getDescricao();
