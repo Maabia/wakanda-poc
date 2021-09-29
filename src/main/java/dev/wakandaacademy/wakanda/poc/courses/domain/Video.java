@@ -14,7 +14,7 @@ import lombok.Getter;
 @Entity
 @Builder
 @Getter
-public class Cursos {
+public class Video {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

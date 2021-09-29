@@ -2,7 +2,7 @@ package dev.wakandaacademy.wakanda.poc.courses.application.api;
 
 import java.util.UUID;
 
-import dev.wakandaacademy.wakanda.poc.courses.domain.Cursos;
+import dev.wakandaacademy.wakanda.poc.courses.domain.Video;
 import lombok.Getter;
 
 @Getter
@@ -13,10 +13,10 @@ public class VideoDTO {
 	private String descricao;
 	private String url;
 	
-	public VideoDTO(Cursos cursos) {
-		this.id = cursos.getId();
-		this.titulo = cursos.getTitulo();
-		this.descricao = cursos.getDescricao();
-		this.url = cursos.getUrl();
+	public VideoDTO(Video video) {
+		this.id = video.getId();
+		this.titulo = video.getTitulo();
+		this.descricao = video.getDescricao();
+		this.url = video.getUrl();
 	}
 }
