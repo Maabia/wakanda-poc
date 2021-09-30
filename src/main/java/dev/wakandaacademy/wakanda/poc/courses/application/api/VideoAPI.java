@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+// SERIA NECESSÁRIO POR REQUESTMAPPING AQUI?
 public interface VideoAPI {
 	
 	@GetMapping("/v1/video/{idVideo}") 
