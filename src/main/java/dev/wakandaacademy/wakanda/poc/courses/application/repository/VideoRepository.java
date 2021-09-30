@@ -1,5 +1,9 @@
 package dev.wakandaacademy.wakanda.poc.courses.application.repository;
 
+import java.util.Optional;
+
+import dev.wakandaacademy.wakanda.poc.courses.domain.Video;
+
 public interface VideoRepository {
-	void buscaVideoPorId(String idVideo);
+	Optional<Video> buscaVideoPorId(String idVideo);
 }

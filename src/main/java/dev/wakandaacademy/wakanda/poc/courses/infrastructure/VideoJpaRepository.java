@@ -1,15 +1,22 @@
 package dev.wakandaacademy.wakanda.poc.courses.infrastructure;
 
+import java.util.Optional;
 import java.util.UUID;
 
-import dev.wakandaacademy.wakanda.poc.courses.application.repository.VideoRepository;
+import org.springframework.stereotype.Component;
 
+import dev.wakandaacademy.wakanda.poc.courses.application.repository.VideoRepository;
+import dev.wakandaacademy.wakanda.poc.courses.domain.Video;
+import lombok.AllArgsConstructor;
+
+@Component
+@AllArgsConstructor
 public class VideoJpaRepository implements VideoRepository {
-	// ADD
+	private final VideoSpringDataJpaRepository videoSpringDataJpaRepository;
 	
 	@Override
-	public void buscaVideoPorId(String idVideo) {
-		return videoSpringDataJpaRepository.findById(UUID.fromString(idVideo))
+	public Optional<Video> buscaVideoPorId(String idVideo) {
+		return videoSpringDataJpaRepository.findById(UUID.fromString(idVideo));
 		
 	}
 
