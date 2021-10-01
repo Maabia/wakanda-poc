@@ -20,7 +20,8 @@ public class VideoDataJpaService implements VideoService {
 		log.info("Iniciando método buscaVideoPorId em VideoDataJpaService");
 		Video videoPorId = videoRepository.buscaVideoPorId(idVideo)
 				.orElseThrow(() ->  ApiException.throwApiException(HttpStatus.NOT_FOUND, "Video não encontrado!"));
-		return null;
+		log.info("Finalizando método buscaVideoPorId em VideoDataJpaService");
+		return videoPorId;
 	}
 	
 }
