@@ -1,4 +1,4 @@
-package dev.wakandaacademy.wakanda.poc.courses.application.api;
+package dev.wakandaacademy.wakanda.poc.video.application.api;
 
 
 import org.springframework.http.HttpStatus;

@@ -1,9 +1,9 @@
-package dev.wakandaacademy.wakanda.poc.courses.application.api;
+package dev.wakandaacademy.wakanda.poc.video.application.api;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import dev.wakandaacademy.wakanda.poc.courses.application.service.VideoService;
-import dev.wakandaacademy.wakanda.poc.courses.domain.Video;
+import dev.wakandaacademy.wakanda.poc.video.application.service.VideoService;
+import dev.wakandaacademy.wakanda.poc.video.domain.Video;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 

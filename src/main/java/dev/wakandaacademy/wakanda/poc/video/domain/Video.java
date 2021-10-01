@@ -1,4 +1,4 @@
-package dev.wakandaacademy.wakanda.poc.courses.domain;
+package dev.wakandaacademy.wakanda.poc.video.domain;
 
 
 import java.util.UUID;

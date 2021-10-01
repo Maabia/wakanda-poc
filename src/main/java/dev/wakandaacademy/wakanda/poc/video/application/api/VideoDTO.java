@@ -1,8 +1,8 @@
-package dev.wakandaacademy.wakanda.poc.courses.application.api;
+package dev.wakandaacademy.wakanda.poc.video.application.api;
 
 import java.util.UUID;
 
-import dev.wakandaacademy.wakanda.poc.courses.domain.Video;
+import dev.wakandaacademy.wakanda.poc.video.domain.Video;
 import lombok.Getter;
 
 @Getter
