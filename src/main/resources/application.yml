@@ -2,7 +2,7 @@ spring:
   datasource:
     driverClassName: org.h2.Driver
     url: ${DB_URL:jdbc:h2:mem:wakanda-poc}
-    username: 
+    username: sa
     password: 
    
   jpa:
