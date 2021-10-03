@@ -6,6 +6,7 @@ spring:
     password: ${WAKANDA_DB_PASSAWORD:h2} 
    
   jpa:
+    defer-datasource-initialization: 'true'
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
       ddl-auto: update
