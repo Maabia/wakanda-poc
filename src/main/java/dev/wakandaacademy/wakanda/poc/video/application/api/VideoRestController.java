@@ -14,7 +14,7 @@ public class VideoRestController implements VideoAPI {
 	private VideoService videoService;
 	
 	@Override
-	public VideoDTO buscaVideoPorId(String idVideo) {
+	public VideoDTO buscaVideoPorId(Long idVideo) {
 		log.info("[Iniciando] Método buscaVideoPorId em Video Controller");
 		Video video = videoService.buscaVideoPorId(idVideo);
 		log.info("[Finalizando] Metodo buscaVideoPorId em Video Controller");

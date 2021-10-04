@@ -9,5 +9,5 @@ import dev.wakandaacademy.wakanda.poc.video.domain.Video;
 
 @Repository
 public interface VideoSpringDataJpaRepository extends JpaRepository<Video, Long> {
-	Optional<Video> findById(String idVideo);
+	Optional<Video> findById(Long idVideo);
 }

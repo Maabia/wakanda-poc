@@ -16,7 +16,7 @@ public class VideoDataJpaService implements VideoService {
 	private VideoRepository videoRepository;
 	
 	@Override
-	public Video buscaVideoPorId(String idVideo) {
+	public Video buscaVideoPorId(Long idVideo) {
 		log.info("Iniciando método buscaVideoPorId em VideoDataJpaService");
 		Video videoPorId = videoRepository.buscaVideoPorId(idVideo)
 				.orElseThrow(() ->  ApiException.throwApiException(HttpStatus.NOT_FOUND, "Video não encontrado!"));

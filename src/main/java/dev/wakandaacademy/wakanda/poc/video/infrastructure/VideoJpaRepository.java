@@ -16,7 +16,7 @@ public class VideoJpaRepository implements VideoRepository {
 	private VideoSpringDataJpaRepository videoSpringDataJpaRepository;
 	
 	@Override
-	public Optional<Video> buscaVideoPorId(String idVideo) {
+	public Optional<Video> buscaVideoPorId(Long idVideo) {
 		log.info("[Inicia] VideoJpaRepository - buscaVideoPorId");
 		Optional<Video> buscaVideoPorId = videoSpringDataJpaRepository.findById(idVideo);
 		log.info("[Finaliza] VideoVideoJpaRepository - buscaVideoPorId");

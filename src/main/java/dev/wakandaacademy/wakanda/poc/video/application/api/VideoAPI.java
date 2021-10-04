@@ -14,6 +14,6 @@ public interface VideoAPI {
 	
 	@GetMapping("/{idVideo}") 
 	@ResponseStatus(value = HttpStatus.OK)
-	VideoDTO buscaVideoPorId(@PathVariable String idVideo); 
+	VideoDTO buscaVideoPorId(@PathVariable Long idVideo); 
 	
 }

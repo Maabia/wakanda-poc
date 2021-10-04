@@ -7,5 +7,5 @@ import dev.wakandaacademy.wakanda.poc.video.domain.Video;
 @Service
 public interface VideoService {
 	
-	Video buscaVideoPorId(String idVideo);
+	Video buscaVideoPorId(Long idVideo);
 }

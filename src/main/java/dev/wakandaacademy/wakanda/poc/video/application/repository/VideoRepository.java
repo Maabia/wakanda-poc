@@ -8,5 +8,5 @@ import dev.wakandaacademy.wakanda.poc.video.domain.Video;
 
 @Repository
 public interface VideoRepository {
-	Optional<Video> buscaVideoPorId(String idVideo);
+	Optional<Video> buscaVideoPorId(Long idVideo);
 }
