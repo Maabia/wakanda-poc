@@ -1,14 +1,12 @@
 package dev.wakandaacademy.wakanda.poc.video.application.api;
 
-import java.util.UUID;
-
 import dev.wakandaacademy.wakanda.poc.video.domain.Video;
 import lombok.Getter;
 
 @Getter
 public class VideoDTO {
 	
-	private UUID id;
+	private Long id;
 	private String titulo;
 	private String descricao;
 	private String url;
