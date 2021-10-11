@@ -1,6 +1,7 @@
 package dev.wakandaacademy.wakanda.poc.video.application.api;
 
 
+
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,6 +15,6 @@ public interface VideoAPI {
 	
 	@GetMapping("/{idVideo}") 
 	@ResponseStatus(value = HttpStatus.OK)
-	VideoDTO buscaVideoPorId(@PathVariable Long idVideo); 
+	VideoDTO buscaVideoPorId(@PathVariable() Long idVideo); 
 	
 }

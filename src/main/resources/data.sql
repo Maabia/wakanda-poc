@@ -1,7 +1,7 @@
-INSERT INTO video (titulo, url) VALUES ('Curso de Java 01: Introdução e Dicas para quem está Começando', 'LnORjqZUMIQ');
-INSERT INTO video (titulo, url) VALUES ('Curso de Java 02: Instalando o Java no Windows (Windows XP, Windows 7, Windows 8)', 'ddhH97IPrFY');
-INSERT INTO video (titulo, url) VALUES ('Curso de Java 02: Instalando o Java no Windows 10', 'CMHU5buXvNw');
-INSERT INTO video (titulo, url) VALUES ('Curso de Java 03: Instalando o Java no Ubuntu (Linux)', 'BTNp4P12DIs');
+INSERT INTO video (titulo, url) VALUES ('Curso de Java 01: Introdução e Dicas para quem está Começando', 'https://www.youtube.com/watch?v=LnORjqZUMIQ&list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r');
+INSERT INTO video (titulo, url) VALUES ('Curso de Java 02: Instalando o Java no Windows (Windows XP, Windows 7, Windows 8)', 'https://www.youtube.com/watch?v=ddhH97IPrFY&list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r&index=2');
+INSERT INTO video (titulo, url) VALUES ('Curso de Java 02: Instalando o Java no Windows 10', 'https://www.youtube.com/watch?v=CMHU5buXvNw&list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r&index=3');
+INSERT INTO video (titulo, url) VALUES ('Curso de Java 03: Instalando o Java no Ubuntu (Linux)', 'https://www.youtube.com/watch?v=BTNp4P12DIs&list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r&index=4');
 INSERT INTO video (titulo, url) VALUES ('Curso de Java 04: Instalando o Java no Mac OS', 'xQEauKE4NTw');
 INSERT INTO video (titulo, url) VALUES ('Curso de Java 05: Primeiro Programa em Java', 'mu2ti43cgwc');
 INSERT INTO video (titulo, url) VALUES ('Curso de Java - Correção Exercícios Aula 05', '3rZNefsMmKs');
