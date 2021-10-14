@@ -66,7 +66,7 @@ INSERT INTO video (titulo, url) VALUES ('Curso de Java 34 - Orientação a Objet
 INSERT INTO video (titulo, url) VALUES ('Curso de Java - Orientação a Objetos: Correção Exercícios Aula 34 - Parte 1 (Contador)', 'oTy5jP7CK9c');
 INSERT INTO video (titulo, url) VALUES ('Curso de Java - Orientação a Objetos: Correção Exercícios Aula 34 - Parte 2 (Calculadora)', '8GGSXaUj2pk');
 INSERT INTO video (titulo, url) VALUES ('Curso de Java - Orientação a Objetos: Correção Exercícios Aula 34 - Parte 3 (Fatorial)', 'A8caJRDWWVQ');
-INSERT INTO video (titulo, url) VALUES ('Curso de Java 35 - Recursividade', 'https://www.youtube.com/embed/X56_FjmbmE4');
+INSERT INTO video (titulo, url) VALUES ('Curso de Java 35 - Recursividade', 'X56_FjmbmE4');
 INSERT INTO video (titulo, url) VALUES ('Curso de Java - Correção Exercícios Aula 35 - Parte 1 (Fibonacci Recursivo)', '2YyJ3CZBlAI');
 INSERT INTO video (titulo, url) VALUES ('Curso de Java - Correção Exercícios Aula 35 - Parte 2 (Somatório Recursivo)', 'wl1gIU5y-II');
 INSERT INTO video (titulo, url) VALUES ('Curso de Java 36 - Orientação a Objetos: Relacionamento entre Classes (tem um e tem muitos)', 'edXQiFAdH2c');
