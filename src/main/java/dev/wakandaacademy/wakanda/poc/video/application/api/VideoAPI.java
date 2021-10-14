@@ -19,9 +19,6 @@ import org.springframework.web.bind.annotation.RestController;
 public interface VideoAPI {
 	
 	
-
-
-	
 	@GetMapping("/{idVideo}") 
 	@ResponseStatus(value = HttpStatus.OK)
 	VideoDTO buscaVideoPorId(@PathVariable Long idVideo); 
